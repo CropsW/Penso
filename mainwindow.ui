@@ -23,15 +23,7 @@
       <height>591</height>
      </rect>
     </property>
-    <layout class="QFormLayout" name="formLayout">
-     <item row="0" column="0">
-      <widget class="QPushButton" name="pushButton">
-       <property name="text">
-        <string>PushButton</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
+    <layout class="QFormLayout" name="formLayout"/>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -51,28 +43,10 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
-   <addaction name="actionth"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="actionth">
-   <property name="checkable">
-    <bool>true</bool>
-   </property>
-   <property name="icon">
-    <iconset resource="src.qrc">
-     <normaloff>:/img/ico/IMG_20220601_172742.jpg</normaloff>:/img/ico/IMG_20220601_172742.jpg</iconset>
-   </property>
-   <property name="text">
-    <string>th</string>
-   </property>
-   <property name="toolTip">
-    <string>esh</string>
-   </property>
-  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources>
-  <include location="src.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
